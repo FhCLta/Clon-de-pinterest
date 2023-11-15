@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border-radius: 8%;
+    font-size: 15px;
+
+}
+
+#pinterest-nav {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    color: black;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-radius: 0;
+    z-index: 999;
+}
+
+
+
+#Notificaciones {
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+#Notificaciones:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.Finder {
+    width: 60%;
+    border: none;
+    height: 50px;
+    font-family: sans-serif;
+    border-radius: 25px;
+    background-color: gainsboro;
+
+
+}
+
+.Finder :hover {
+    background-color: blanchedalmond;
+
+}
+
+.navegador {
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-radius: 35px;
+    background-color: white;
+
+}
+
+.navegador:hover {
+    cursor: pointer;
+}
+
+#Message {
+    padding-top: 15px;
+
+    width: 25px;
+
+    height: 25px;
+
+    padding: 10px;
+}
+
+#Message:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+#Usuario {
+    padding-top: 15px;
+
+    width: 25px;
+
+    height: 25px;
+
+    padding: 10px;
+}
+
+#Usuario:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+#Select {
+    padding-top: 15px;
+
+    width: 25px;
+
+    height: 25px;
+
+    padding: 10px;
+}
+
+#Select:hover {
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+  
+.card-image img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: zoom-in;
+
+}
+
+.botonesocultos{
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    padding: 40px;
+    display: none;
+}
+
+.botonesocultos button{
+    cursor: pointer;
+    padding: 20px 15px;
+    background-color: red;
+    border-radius: 25px;
+    top: 0;
+    right: 0;
+    color: white;
+
+}
+.card-image:hover .botonesocultos{
+    display: block;
+}
