@@ -55,6 +55,12 @@
 
 }
 
+.lupa{
+    position: relative;
+    top: -4px;
+    right: -11px;
+}
+
 .navegador {
     padding-top: 20px;
     font-size: 15px;
@@ -114,46 +120,76 @@
     background-color: gainsboro;
     border-radius: 50%;
 }
-.grid-container{
+.content{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    padding-top: 100px;
 
 }
+
+@media screen and (max-width: 460px){
+
+
 .columna{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-
-
-  
-.card-image img {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    cursor: zoom-in;
-
+    
 }
 
-.botonesocultos{
+
+.card-image{
+
+   position: relative;
+   cursor: zoom-in;
+    
+}
+
+.boton0{
     position: absolute;
-    top: 50px;
-    left: 90px;
-    padding: 40px;
-    display: none;
-}
-
-.botonesocultos button{
-    cursor: pointer;
-    padding: 20px 15px;
+    top: 15px;
+    right: 15px;
     background-color: red;
-    border-radius: 25px;
-    top: 0;
-    right: 0;
     color: white;
+    border-radius: 35px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 10px 15px; 
+}
+
+.oculto{
+ opacity: 0;
+}
+
+.card-image:hover .oculto{
+    opacity: 1;
+}
+
+
+.boton1{
+    position: absolute;
+    bottom:15px;
+    left: 145px;
+    cursor: pointer;
+    background-color: white;
+    color: solid black;
+    border-radius: 100%;
+    padding: 5px;
 
 }
-.card-image:hover .botonesocultos{
-    display: block;
-}
+
+.boton2{
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: solid black;
+    border-radius: 100%;
+    padding: 5px;
+
+    }
+
+ 

@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barra de Navegación Pinterest</title>
-    <link rel="stylesheet" href="./tareapinteres.css"> 
+    <link rel="stylesheet" href="./tareapinteres.css">
 </head>
 
 <body>
     <nav id="pinterest-nav">
 
-        <a href="https://www.pinterest.com.mx/" target="_blank"><img src="./imagenes/photo_2023-11-07_23-24-10.jpg" width="50px"
-                height="50px" alt="Pinterest Logo">
+        <a href="https://www.pinterest.com.mx/" target="_blank"><img src="./imagenes/photo_2023-11-07_23-24-10.jpg"
+                width="50px" height="50px" alt="Pinterest Logo">
         </a>
         <div class="navegador">Inicio</div>
         <div class="navegador">Explorar</div>
         <div class="navegador">Crear</div>
-        <input class="Finder" type="text" placeholder="Buscar">
+        <input class="Finder" type="text" placeholder="           Buscar">
+        <div class="buscador"></div>
+        <div class="lupa"><img src="./imagenes/lupa.jpg" alt="lupa" width="18px" height="18px"> </div>
         <div id="Notificaciones">
             <img src="./imagenes/campana.png" alt="Notificaciones" title="Notificaciones">
         </div>
@@ -33,113 +35,252 @@
 
     </nav>
 
-    <main class="grid-container">
+    <main class="content">
         <div class="columna">
             <div class="card-image">
-                <img src="https://picsum.photos/230/300.jpg" width="230" height="300" /> 
-                <div class="botonesocultos">
-                    <button id="boton0">Guardar</button>
-                    <button id="boton1"><img src="./imagenes/imagen de descargar.jpg" alt="descargar" width="30px" height="30px"></button> 
-                </div>
-                
-                </div>
+                <img class="botonesoculto" src="https://picsum.photos/230/300.jpg" width="230" height="300" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
+
+            </div>
             <div class="card-image">
-                <img src="https://picsum.photos/230/410.jpg" width="230" height="410" />
-                <div class="botonesocultos">
-                    <button id="boton0">Guardar</button>
-                    <button id="boton1"><img src="./imagenes//imagen de descargar.jpg" alt="descargar" width="30px" height="30px"></button> 
-                </div>
-          </div>
-            <div class="card-image">
-                <img src="https://picsum.photos/230/410.jpg" width="230" height="410" />
+                <img class="botonesocultos" src="https://picsum.photos/230/410.jpg" width="230" height="410" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
+
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/410.jpg" width="230" height="410" />
-                <div class="card-image">
-                    <img src="https://picsum.photos/230/250.jpg" width="230" height="250" />
-                </div>
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
-            
+            <div class="card-image">
+                <img src="https://picsum.photos/230/410.jpg" width="230" height="410" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
+            </div>
+            <div class="card-image">
+                <img src="https://picsum.photos/230/250.jpg" width="230" height="250" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
+            </div>
         </div>
-        <div class="columna">
+
+        </div>
+         <div class="columna">
             <div class="card-image">
                 <img src="https://picsum.photos/230/180.jpg" width="230" height="180" />
-                 </div>
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
+            </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/340.jpg" width="230" height="340" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/120.jpg" width="230" height="120" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/215.jpg" width="230" height="215" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/420.jpg" width="230" height="420" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="./imagenes/./image6.jpg" width="230" height="260" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
         </div>
         <div class="columna">
             <div class="card-image">
                 <img src="https://picsum.photos/230/320.jpg" width="230" height="320" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/153.jpg" width="230" height="153" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/480.jpg" width="230" height="480" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/260.jpg" width="230" height="260" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/450.jpg" width="230" height="450" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
 
         </div>
         <div class="columna">
             <div class="card-image">
                 <img src="https://picsum.photos/230/135.jpg" width="230" height="135" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/287.jpg" width="230" height="287" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/500.jpg" width="230" height="500" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/222.jpg" width="230" height="222" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/321.jpg" width="230" height="321" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="./imagenes/./image8.jpg" width="230" height="260" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
         </div>
         <div class="columna">
             <div class="card-image">
                 <img src="https://picsum.photos/230/150.jpg" width="230" height="150" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/165.jpg" width="230" height="165" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/305.jpg" width="230" height="305" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/286.jpg" width="230" height="286" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/98.jpg" width="230" height="98" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="./imagenes/./image7.jpg" width="230" height="260" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="./imagenes/./image9.jpg" width="230" height="260" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
 
 
@@ -148,43 +289,98 @@
         <div class="columna">
             <div class="card-image">
                 <img src="https://picsum.photos/230/490.jpg" width="230" height="490" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/124.jpg" width="230" height="124" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/510.jpg" width="230" height="510" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/320.jpg" width="230" height="320" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="https://picsum.photos/230/260.jpg" width="230" height="260" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
         </div>
         <div class="columna">
             <div class="card-image">
                 <img src="./imagenes/./image1.jpg" width="230" height="260" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="./imagenes/./image2.jpg" width="230" height="260" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="./imagenes/./image3.jpg" width="230" height="260" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="./imagenes/./image4.jpg" width="230" height="260" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
                 <img src="./imagenes/./image5.jpg" width="230" height="260" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
             <div class="card-image">
-                <img src="./imagenes/./image10.jpg" width="230" height="260" />
+                <img src="./imagenes/image9.jpg" width="230" height="260" />
+                <button class="boton0 oculto">Guardar</button>
+                <button class="boton1 oculto"><img src="./imagenes/flechaarriba.jpg" alt="descargar" width="20px"
+                        height="20px"></button>
+                <button class="boton2 oculto"> <img src="./imagenes/3 puntos.jpg" alt=" tres puntos" width="20px"
+                        height="20px"></button>
             </div>
+        </div> 
         </div>
-    </div>
 
- </main>
+    </main>
 
 
 </body>
