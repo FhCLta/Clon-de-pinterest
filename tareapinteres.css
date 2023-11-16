@@ -39,15 +39,21 @@
     transition: 0.3s;
 }
 
+.buscador {
+    width: 1050px;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+
+}
+
 .Finder {
-    width: 60%;
+    width: 100%;
     border: none;
     height: 50px;
     font-family: sans-serif;
     border-radius: 25px;
     background-color: gainsboro;
-
-
 }
 
 .Finder :hover {
@@ -55,10 +61,11 @@
 
 }
 
-.lupa{
-    position: relative;
-    top: -4px;
-    right: -11px;
+.lupa {
+    margin-top: 17px;
+    position: absolute;
+    margin-left: 15px;
+
 }
 
 .navegador {
@@ -90,6 +97,7 @@
     background-color: gainsboro;
     border-radius: 50%;
 }
+
 #Usuario {
     padding-top: 15px;
 
@@ -105,6 +113,7 @@
     background-color: gainsboro;
     border-radius: 50%;
 }
+
 #Select {
     padding-top: 15px;
 
@@ -120,7 +129,8 @@
     background-color: gainsboro;
     border-radius: 50%;
 }
-.content{
+
+.content {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -128,26 +138,26 @@
 
 }
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 960px) {
 
 
-.columna{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-    
-}
+    .columna {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
-
-.card-image{
-
-   position: relative;
-   cursor: zoom-in;
-    
 }
 
-.boton0{
+
+.card-image {
+
+    position: relative;
+    cursor: zoom-in;
+
+}
+
+.boton0 {
     position: absolute;
     top: 15px;
     right: 15px;
@@ -156,21 +166,21 @@
     border-radius: 35px;
     font-family: sans-serif;
     font-weight: bolder;
-    padding: 10px 15px; 
+    padding: 10px 15px;
 }
 
-.oculto{
- opacity: 0;
+.oculto {
+    opacity: 0;
 }
 
-.card-image:hover .oculto{
+.card-image:hover .oculto {
     opacity: 1;
 }
 
 
-.boton1{
+.boton1 {
     position: absolute;
-    bottom:15px;
+    bottom: 15px;
     left: 145px;
     cursor: pointer;
     background-color: white;
@@ -180,7 +190,7 @@
 
 }
 
-.boton2{
+.boton2 {
     position: absolute;
     bottom: 15px;
     right: 10px;
@@ -190,6 +200,4 @@
     border-radius: 100%;
     padding: 5px;
 
-    }
-
- 
+}
